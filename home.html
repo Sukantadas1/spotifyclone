@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <meta name="description" content="Spotify clone made using html,css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="./Icons/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+<div class="container">
+<!-- <img src="https://embed-ssl.wistia.com/deliveries/a212eb9d895200a275996f8925ad3215.webp?image_crop_resized=960x540" height="1000"alt="">  -->
+<div class="sidebar">
+<div class="top-icons">
+          <div class="link-flex">
+            <img src="./Icons/home.png" alt="Home" />
+            <a href="./home.html">Home</a>
+          </div>
+          <div class="link-flex">
+            <img src="./Icons/search.png" alt="Search" />
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="flex-top">
+            <div class="link-flex">
+              <img src="./Icons/playlist.png" alt="Library" />
+              <p>Your Library</p>
+            </div>
+<div class="link-flex">
+              <img src="./Icons/plus.png" />
+              <img src="./Icons/boxes.png" />
+            </div>
+          </div>
+          <div class="link-flex" style="gap: 0.5rem">
+            <div class="chip">
+              <img src="./Icons/plus.png" />
+              <a href="#">CreatePlaylist</a>
+            </div>
+            <div class="chip">
+              <img src="./Icons/purpleheart.png" alt="" />
+              <a href="#">LikedSongs</a>
+            </div>
+          <div class="player">
+       <div class="volume-controls">
+</div>
+<div class="player-center">
+<div class="player-controls">
+           <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./Icons/shuffle.png"
+            />
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./Icons/previous_musicbar.png"
+            />
+            <img
+              style="height: 2rem; margin-right: 1rem"
+              src="./Icons/play_musicbar.png"
+            />
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./Icons/next_musicbar.png"
+            />
+            <img
+              style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+              src="./Icons/loop.png"
+            />
+          </div>
+          <div class="player-timeline">
+            <span class="current-time">0:00</span>
+            <input
+              type="range"
+              class="timeline-slider"
+              min="0"
+              max="100"
+              step="1"
+              value="0"
+            />
+            <span class="total-time">0:00</span>
+          </div>
+        </div>
+ <div class="volume-controls">
+          <img
+            src="./Icons/device.png"
+            style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+            alt="Volume"
+          />
+          <img
+            src="./Icons/playlist.png"
+            style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+            alt="Settings"
+          />
+          <img
+            src="./Icons/music.png"
+            style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+            alt="Fullscreen"
+          />
+          <input
+            type="range"
+            class="volume-slider"
+            min="0"
+            max="100"
+            step="1"
+            value="50"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
